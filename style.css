@@ -9,7 +9,15 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(sanbeda.jpg);
     background-position: center;
     background-size: cover ;
-    height: 109vh;
+    height: 300vh;
+}
+
+.main1{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(sanbeda.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 170vh;
 }
 
 .navbar{
@@ -129,6 +137,7 @@ ul li a:hover{
 
 .content h1{
     font-family: 'Times New Roman';
+    color: #fff;
     font-size: 50px;
     padding-left: 20px;
     margin-top: 9%;
@@ -152,11 +161,190 @@ ul li a:hover{
 
 .content .cn a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     transition: .3s ease;
 
 }
 
 .cn:hover{
+    background-color: black;
+}
+
+.content span{
+    color: #fff;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(252, 249, 249, 0.8)50%,rgba(252, 249, 249, 0.8)50%);
+    position: sticky;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #8B0000;
+    font-size: 22px;
     background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #8B0000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #8B0000;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    columns: #fff;
+
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #8B0000;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #8B0000;
+}
+
+.signup{
+
+    width: 360px;
+    height: 600px;
+    background: linear-gradient(to top, rgba(252, 249, 249, 0.8)50%,rgba(252, 249, 249, 0.8)50%);
+    position: sticky;
+    top: -20px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 25px;
+ 
+
+}
+
+.signup h1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.signup h4{
+    text-align: center;
+}
+
+.signup form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.signup form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.signup form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+.signup form input[type="button"]{
+    width: 320;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #8B0000;
+}
+
+.container{
+    width: 360px;
+    height: 820px;
+    background: linear-gradient(to top, rgba(252, 249, 249, 0.8)50%,rgba(252, 249, 249, 0.8)50%);
+    position: sticky;
+    top: -20px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 25px;
+ 
+}
+
+.next .btnn{
+    width: 200px;
+    height: 40px;
+    background: #8B0000;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    columns: #fff;
+
+
+}
+
+.next .btnn:hover{
+    background: #fff;
+    color: #8B0000;
+}
+
+.next .btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
