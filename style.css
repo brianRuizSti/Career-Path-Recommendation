@@ -6,18 +6,19 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(sanbeda.jpg);
+    height: 100px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg);
     background-position: center;
-    background-size: cover ;
+    background-size: auto;
     height: 300vh;
 }
 
 .main1{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(sanbeda.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg1.png);
     background-position: center;
-    background-size: cover ;
-    height: 170vh;
+    background-size: auto;
+    height: 150vh;
 }
 
 .navbar{
@@ -66,7 +67,7 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-family: Arial;
     font-weight: bold; 
     transition: 0.4s ease-in-out;
@@ -124,12 +125,15 @@ ul li a:hover{
     margin: auto;
     color: #fff;
     position: relative;
+    text-align: center;
+    
 }
 
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-family: Arial;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1.2px;
     line-height: 30px ;
 
@@ -164,7 +168,7 @@ ul li a:hover{
     color: #fff;
     transition: .3s ease;
 
-}
+} 
 
 .cn:hover{
     background-color: black;
@@ -172,8 +176,135 @@ ul li a:hover{
 
 .content span{
     color: #fff;
+    font-size: 40px;
+}
+
+.career{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    text-align: center;
+
+}
+
+.career .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px ;
+
+
+}
+
+.career h1{
+    font-family: 'Times New Roman';
+    color: #fff;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+.career .cn{
+    width: 160px;
+    height: 40px;
+    background: #8B0000;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:  .4 ease ;
+
+}
+
+.career .cn a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+
+}
+
+.cn:hover{
+    background-color: black;
+}
+
+.career span{
+    color: #fff;
     font-size: 60px;
 }
+
+.about{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    
+}
+
+.about .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px ;
+
+}
+
+.about h1{
+    font-family: 'Times New Roman';
+    color: #fff;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+.about h2{
+    font-family: 'Times New Roman';
+    color: #fff;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+.about .cn{
+    width: 160px;
+    height: 40px;
+    background: #8B0000;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:  .4 ease ;
+
+}
+
+.about .cn a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+
+}
+
+.cn:hover{
+    background-color: black;
+}
+
+
 
 .form{
     width: 250px;
@@ -181,7 +312,7 @@ ul li a:hover{
     background: linear-gradient(to top, rgba(252, 249, 249, 0.8)50%,rgba(252, 249, 249, 0.8)50%);
     position: sticky;
     top: -20px;
-    left: 870px;
+    left: 500px;
     border-radius: 10px;
     padding: 25px;
 }
@@ -318,7 +449,7 @@ ul li a:hover{
     background: linear-gradient(to top, rgba(252, 249, 249, 0.8)50%,rgba(252, 249, 249, 0.8)50%);
     position: sticky;
     top: -20px;
-    left: 300px;
+    left: 100px;
     border-radius: 10px;
     padding: 25px;
  
