@@ -11,11 +11,7 @@
     background-position: center;
     background-size: auto;
     height: 300vh;
-    
 }
-
-
-
 
 .main1{
     width: 100%;
@@ -490,4 +486,26 @@ ul li a:hover{
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 10em);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 1em 15em;
+    justify-content: center;
+    width: 85vw;
+}
+
+.cards {
+    background: #06283D;
+    border-radius: 2em;
+    padding: 1em;
+    margin-top: 3vh;
+    width: 21em;
+}
+
+.cards h3,
+p {
+    color: #ffff;
 }
